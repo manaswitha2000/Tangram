@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+	<head>
+		<title>WebGL - TangramApplication</title>
+		<style>
+         #reference-surface{border:3px solid lightgreen;}
+    </style>
+		<style>
+         #drawing-surface{border:3px solid red;}
+    </style>
+	</head>
+		<canvas id="reference-surface" width="500" height="500">
+			Your browser does not support HTML5
+		</canvas>
+		<canvas id="drawing-surface" width="500" height="500">
+			Your browser does not support HTML5
+		</canvas>
+		<br />
+		<i>Reference Surface &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; </i>
+		<i>&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; Drawing Surface</i>
+		<script language="javascript">
+		function InitDemo() {
+			DemoRef();
+			Demo0123();
+		}
+		</script>
+		<script src="referencearea.js"></script>
+		<script src="Mode0123.js"></script>
+		<script src="./lib.js"></script>
+	<body onload="InitDemo();"></body>
+</html>
