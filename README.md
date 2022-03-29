@@ -28,4 +28,3 @@ Instructions
 				”arrowright” translation to right.
 				”arrowup” translation to top.
 				”arrowleft” translation to bottom.
-				”r” will enable camera rotation by dragging the mouse while pressing the left mouse button about  y axis and the origin of the scene.
